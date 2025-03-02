@@ -88,36 +88,36 @@
       <div class="bg-white rounded-md mb-5">
         <div class="p-4">
           <h1 class="font-bold">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+            Question-4: What is event bubbling in the DOM?
           </h1>
         </div>
         <hr class="border-t-0 border-b-[1px] border-dashed border-gray-300" />
         <div class="p-4">
           <p class="text-gray-600 font-medium">
-            In DOM we can select an element using its id, class or tagName using
-            js methods, getElementById(), getElementsByClassName() and
-            getElementsByTagName(). We can also get elements just like we do in
-            CSS using CSS Selectors, querySelector() and querySelectorAll() in
-            js.
+            If you click on a button, the event that is triggered on that
+            element will propagate through its parent elements until it reaches
+            the root of the document. Essentially it 'bubbles-up' until it
+            reaches the root. This allows parent elements to handle events from
+            their child element.
           </p>
         </div>
       </div>
       <div class="bg-white rounded-md mb-5">
         <div class="p-4">
           <h1 class="font-bold">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+            Question-5: How do you create, add, and remove elements using
+            JavaScript?
           </h1>
         </div>
         <hr class="border-t-0 border-b-[1px] border-dashed border-gray-300" />
         <div class="p-4">
           <p class="text-gray-600 font-medium">
-            In DOM we can select an element using its id, class or tagName using
-            js methods, getElementById(), getElementsByClassName() and
-            getElementsByTagName(). We can also get elements just like we do in
-            CSS using CSS Selectors, querySelector() and querySelectorAll() in
-            js.
+            In js we can create elements using document.createElement('TagName')
+            and put it in a variable. Now, to add them in the DOM we can use
+            .appendChild() to place them within a parent element. And now, if we
+            wanna remove that element we can use .remove() on on the variable we
+            put the created element on or we could call .removeChild() on a
+            parent element to remove it.
           </p>
         </div>
       </div>
